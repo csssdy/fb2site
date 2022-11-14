@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.1"/>
+
+
+    <title>HELLO WORLD</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://use.typekit.net/fel8jpn.css">
+  <!-- adobe fonts above! -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <!-- this is the css web3 stylesheet! -->
+
+  
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+  .responsive {
+     width: 100%;
+  max-width: 100px;
+  height: auto;
+  }
+  .container {
+    margin: 1em 2em;
+    overflow: scroll;
+  }
+}
+
+:root {
+--primary-color: #191919;
+--secondary-color: #7d12ff;
+--complimentary-color: #200589;
+--contrast-color: #ab20fd;
+--light-color: #8b649e;
+--mid-color: #d393fd;
+--alt-color: #bffaf8;
+
+}
+
+.container {000000;
+  min-height: auto;
+  font-family: Elevon, sans-serif;
+  position: static;
+  margin: 0px;
+  overflow: hidden;
+  
+}
+
+nav a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    width: 15vh;
+    background: #000;
+    padding-bottom: 100px;
+}
+
+div {
+  border: 3px double;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  }
+
+
+section {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 0;
+    opacity: 0;
+    transition: all ease-in .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+section h1 {
+    font-size: 5em;
+    color: #fff;
+    opacity: .5;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: Elevon, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+}
+
+section h2 {
+  
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: .5em;
+  text-transform: lowercase;
+  font-family: changeling-neo, sans-serif
+  font-weight: 300;
+}
+
+
+/* Styles applied on trigger */
+section:target {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+
+
+section:target h1 {
+    opacity: 0;
+    animation: 2s fadeIn forwards .5s;
+}
+
+#world {
+    background: var(--primary-color);
+    width: 100vw;
+}
+
+#contact {
+    background: var(--complimentary-color);
+    background-image: url("https://fullbody2.neocities.org/brycesunrise5.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#news {
+    background: var(--contrast-color);
+}
+
+#accessory {
+    background: var(--light-color);
+}
+
+#audio {
+    background: var(--mid-color);
+    background-image: url("https://fullbody2.neocities.org/klonoa-lolo-adapt-pattern-no-dither-256-800x450.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#data {
+    background: var(--alt-color);
+    
+}
+
+@keyframes fadeIn {
+    100% { opacity:1 }
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#world"><img src="https://fullbody2.neocities.org/sidebar/home-32-selective-dither.gif" class="responsive"></a>
+  <a href="#contact"><img src="https://fullbody2.neocities.org/sidebar/mail-32-selective-dither.gif" class="responsive"></a>
+  <a href="#news"><img src="https://fullbody2.neocities.org/sidebar/news-32-selective-dither.gif" class="responsive"></a>
+  <a href="#accessory"><img src="https://fullbody2.neocities.org/sidebar/accessory-32-selective-dither.gif" class="responsive"></a>
+  <a href="#audio"><img src="https://fullbody2.neocities.org/sidebar/audio-32-selective-dither.gif" class="responsive"></a>
+  <a href="#data"><img src="https://fullbody2.neocities.org/sidebar/data-32-selective-dither.gif" class="responsive"></a>
+</nav>
+  
+  
+  
+
+  
+  <div class=  "section" >
+    <section id= 'world'>
+      <h1>the world</h1> <p>
+        <div>  
+          <iframe src="index.html" width="1200px" height="800px"></iframe><p>
+        </div>
+    </section>
+  
+    <section id= 'contact'>
+      <h1>mailer</h1>
+      <div class="section">
+        <div> 
+          <a href="mailto:bullfody@gmail.com"><img src="https://fullbody2.neocities.org/email.gif" width="500px" height="70px"></a><p>
+        </div>
+          <iframe src="https://www3.cbox.ws/box/?boxid=3520155&boxtag=fxJFxX" width="500px" height="600px" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+        </div>
+       </div>
+    </section>
+  
+    <section id= 'news'>
+      <h1>news</h1> 
+          <div class="section">
+             <h2>9/6 write-up</h2>
+              <div>
+                 <iframe src="https://fulltimeaesthetic.com/2022/09/tagabow-full-body-2-sun-organ-bedridden-purgatory/" width="500px" height="600px" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+             </div>
+          </div>
+          
+      <div class="section"> 
+      <h2> september tour </h2> <p> <img src="https://fullbody2.neocities.org/septour.jpg" width="500px" height="500px"></a>
+      </div>
+    </div>
+   
+      
+      
+    </section>
+  
+    <section id= 'accessory'>
+      <h1>accessory</h1>
+      
+      <div class="container">
+      <div class="section">
+    <div> <a href="https://fullbody2.bandcamp.com/merch/klonoa-x-sonic-riso-poster"><img src="https://fullbody2.neocities.org/poster%20all%203.jpg" width="800px" height="600px"></a><p>
+       </div>
+      </div>
+      </div>
+      
+      
+    </section>
+
+    <section id= 'audio'>
+      <h1>audio</h1>
+        <div class= "section">
+       <div>
+       <a href="https://soundcloud.com/fullbody2"><img src="https://fullbody2.neocities.org/GYkLBEhNod.gif" width="300px" height="100px"></a>
+       <a href="https://fullbody2.bandcamp.com/"><img src="https://fullbody2.neocities.org/c3uzgfqFRy.gif" width="300px" height="100px"></a>
+      <a href="https://open.spotify.com/artist/4hCh0DfO21IV18sFffmTqw?si=KbATCCUrSAiTpcyjtiakyQ"><img src="https://fullbody2.neocities.org/RLemQixhtU.gif" width="300px" height="100px"></a>
+       <a href="https://www.youtube.com/channel/UCS8Glq-f0qVYpqxHV4OmkiQ"><img src="https://fullbody2.neocities.org/6M8pAtAF9S.gif" width="300px" height="100px"></a>
+       </div>
+    </section>
+    
+     <section id= 'data'>
+      <h1>data</h1>
+ <div class= "section">
+  <div>
+   <a href="https://fullbody2.neocities.org/lyrics.html"><img src="https://fullbody2.neocities.org/lyrics.gif" width="500px" height="70px"></a><p>
+</div>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://fullbody2.neocities.org/data/selfportrait.png" style="width:500px">
+  <img class="mySlides" src="https://fullbody2.neocities.org/data/1.jpg" style="width:500px">
+  <img class="mySlides" src="https://fullbody2.neocities.org/data/abstractrender.png" style="width:500px">
+  <img class="mySlides" src="https://fullbody2.neocities.org/data/selfportrait2.png" style="width:500px">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+ 
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</div>
+ </section>
+
+
+</body>
+</html>
